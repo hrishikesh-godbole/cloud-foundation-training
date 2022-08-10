@@ -15,8 +15,8 @@
  */
 
 provider "google" {
-  project = var.project_id
-  region  = var.region
+  project = qwiklabs-gcp-01-54bd541395fa
+  region  = us-west1
 }
 terraform {
   required_providers {
