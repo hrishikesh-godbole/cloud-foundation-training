@@ -17,13 +17,13 @@
 # Task 3: Declare input variables for project and region
 # https://www.terraform.io/docs/configuration/variables.html
 
-/**
+
 variable "project_id" {
-  description = "GCP Project ID"
+  description = "qwiklabs-gcp-02-d710e13f2b94"
   type = string
 }
 variable "region" {
-  description = "GCP Region"
+  description = "us-east1"
   type = string
 }
-*/
+
