@@ -23,10 +23,10 @@
  * Reference - https://www.terraform.io/docs/providers/google/index.html
  *
  */
-/**
+
 provider "google" {
-  project = var.project_id
-  region  = var.region
+  project = var.qwiklabs-gcp-02-d710e13f2b94
+  region  = var.us-east-1
 }
 terraform {
   required_providers {
@@ -35,7 +35,7 @@ terraform {
     }
   }
 }
-*/
+
 
 /**
  * Task 4.1: Add random_id resource ("suffix")
