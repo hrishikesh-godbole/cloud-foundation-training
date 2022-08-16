@@ -61,7 +61,7 @@ resource "random_id" "suffix" {
  * Reference - https://www.terraform.io/docs/providers/google/r/storage_bucket.html
  *
  */
-/**
+
 resource "google_storage_bucket" "remote_state" {
   name          = "cft-lab-state-<YOUR_NAME>-${random_id.suffix.hex}" # Note the reference to the random_id block
   location      = "US"
@@ -70,4 +70,4 @@ resource "google_storage_bucket" "remote_state" {
     enabled = true
   }
 }
-*/
+
