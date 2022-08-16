@@ -14,5 +14,5 @@
  * limitations under the License.
  */
 
-project_id = "" # Insert Project ID here
-region     = "" # Insert Region here
+project_id = "qwiklabs-gcp-02-fc4db23a4fc9" # Insert Project ID here
+region     = "us-east1" # Insert Region here
