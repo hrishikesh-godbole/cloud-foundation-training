@@ -44,11 +44,11 @@ terraform {
  * Reference - https://www.terraform.io/docs/providers/random/r/id.html
  *
  */
-/**
+
 resource "random_id" "suffix" {
   byte_length = 4
 }
-*/
+
 
 /**
  * Task 4.2: Add GCS bucket resource for remote state ("remote_state")
