@@ -18,10 +18,10 @@
 # https://www.terraform.io/docs/configuration/variables.html
 
 variable "project_id" {
-  description = "GCP Project ID"
+  description = "qwiklabs-gcp-02-ff2e66dcbe3b"
   type        = string
 }
 variable "region" {
-  description = "GCP Region"
+  description = "us-east1"
   type        = string
 }
